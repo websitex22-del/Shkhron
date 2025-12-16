@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>خدماتنا | توريد بطحاء مكة</title>
+<style>
+:root{--bg:#0b1220;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--brand:#4fc3f7;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}
+body{margin:0;font-family:Tahoma,Arial;background:var(--bg);color:var(--text)}
+a{text-decoration:none;color:inherit}
+.header{position:sticky;top:0;z-index:50;background:#0b1220;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;padding:12px 14px}
+.brand{font-weight:700}
+.menuBtn{width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:#111827;display:grid;place-items:center}
+.menuBtn span,.menuBtn span::before,.menuBtn span::after{width:18px;height:2px;background:#fff;display:block;content:""}
+.menuBtn span::before{transform:translateY(-6px)}
+.menuBtn span::after{transform:translateY(4px)}
+.drawer{position:fixed;inset:0;display:none;z-index:100}
+.drawer.open{display:block}
+.backdrop{position:absolute;inset:0;background:rgba(0,0,0,.6)}
+.panel{position:absolute;right:0;top:0;height:100%;width:290px;background:#0f172a;padding:16px;overflow:auto}
+.panel a{display:block;padding:12px;margin:10px 0;border-radius:12px;border:1px solid var(--line)}
+.container{padding:16px;max-width:1000px;margin:auto}
+h1{text-align:center;color:var(--brand);margin:10px 0 0}
+.sub{text-align:center;color:var(--muted);margin:8px 0 18px;font-size:14px;line-height:1.8}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:14px;display:block;background:#0b1220}
+.card h3{margin:10px 0 6px;color:var(--brand)}
+.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+.float{position:fixed;left:16px;bottom:16px;display:flex;flex-direction:column;gap:10px;z-index:200}
+.float a{width:56px;height:56px;border-radius:18px;display:grid;place-items:center;font-size:22px}
+.call{background:#2563eb}
+.wa{background:#22c55e}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="bar">
+    <button class="menuBtn" id="open"><span></span></button>
+    <div class="brand">توريد بطحاء مكة</div>
+    <div style="width:44px"></div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <div class="backdrop" id="close"></div>
+  <div class="panel">
+    <a href="index.html">الرئيسية</a>
+    <a href="services.html">خدماتنا</a>
+    <a href="products.html">منتجاتنا</a>
+    <a href="difference.html">الفرق بين البطحاء</a>
+    <a href="gallery.html">معرض الصور</a>
+    <a href="payments.html">طرق الدفع</a>
+    <a href="contact.html">تواصل معنا</a>
+  </div>
+</div>
+
+<main class="container">
+  <h1>خدماتنا داخل مكة</h1>
+  <div class="sub">
+    توريد بطحاء ورمل ودفان ومواد مشاريع — جودة مضمونة، تنسيق سريع، وأسعار منافسة.<br>
+    أرسل نوع المادة + الكمية + الموقع على واتساب ونرد عليك فوراً.
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://i.postimg.cc/nVw9mf6x/bat7aryad.jpg" alt="بطحاء الرياض">
+      <h3>توريد بطحاء الرياض</h3>
+      <p>بطحاء ناعمة ومتجانسة، مناسبة للبناء واللياسة والتشطيب.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/NGP2XvWf/tymaaa.jpg" alt="بطحاء تيماء">
+      <h3>توريد بطحاء تيماء</h3>
+      <p>أقوى وخشنة أكثر، ممتازة للدفان والتسوية وتحمل المشاريع.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/9XNw9Hvh/dfan.jpg" alt="دفان">
+      <h3>توريد دفان</h3>
+      <p>لتجهيز الأرضيات قبل البلاط أو الصب، مع توصيل سريع داخل مكة.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/kMhRSPkq/brkany.jpg" alt="بركاني">
+      <h3>توريد بركاني</h3>
+      <p>مناسب للردم والمشاريع الثقيلة والتأسيس، بجودة عالية.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/RCbJtxjC/tartsha.jpg" alt="طرطشة">
+      <h3>توريد طرطشة</h3>
+      <p>ممتازة لتجهيز الجدران وتحسين تماسك اللياسة.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/jqknfYGr/khrsan.jpg" alt="خرسانة">
+      <h3>توريد خرسانة</h3>
+      <p>خرسانة للمشاريع والأساسات حسب الحاجة، مع تنسيق سريع.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/ryYR42vw/sbeez.jpg" alt="سبيز">
+      <h3>توريد سبيز</h3>
+      <p>مناسب للأعمال المختلفة والتهيئة، حسب طلب المشروع.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.postimg.cc/ryYR427B/12.jpg" alt="شاحنة توريد">
+      <h3>شاحنات توريد</h3>
+      <p>شاحنات جاهزة للتوصيل داخل مكة حسب الموعد والكمية.</p>
+    </div>
+  </div>
+</main>
+
+<div class="float">
+  <a class="wa" href="https://wa.me/966550401370" title="واتساب">💬</a>
+  <a class="call" href="tel:+966550401370" title="اتصال">📞</a>
+</div>
+
+<script>
+const drawer=document.getElementById('drawer');
+document.getElementById('open').onclick=()=>drawer.classList.add('open');
+document.getElementById('close').onclick=()=>drawer.classList.remove('open');
+</script>
+
+</body>
+</html>

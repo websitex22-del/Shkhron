@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الفرق بين بطحاء الرياض وبطحاء تيماء</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Tahoma,Arial;
+  background:#0b1220;
+  color:#fff;
+  direction:rtl;
+}
+header{
+  background:#020617;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.menu-btn{
+  font-size:26px;
+  cursor:pointer;
+}
+nav{
+  position:fixed;
+  top:0;
+  right:-100%;
+  width:70%;
+  height:100%;
+  background:#020617;
+  padding:20px;
+  transition:.3s;
+  z-index:999;
+}
+nav a{
+  display:block;
+  padding:12px 0;
+  color:#7dd3fc;
+  border-bottom:1px solid #1e293b;
+  text-decoration:none;
+}
+nav.active{right:0}
+
+.container{padding:20px}
+
+.card{
+  background:#020617;
+  border-radius:16px;
+  padding:15px;
+  margin-bottom:20px;
+}
+
+.card img{
+  width:100%;
+  border-radius:14px;
+  margin-bottom:10px;
+}
+
+h1,h2{color:#7dd3fc}
+
+.compare li{
+  margin-bottom:8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <div>توريد بطحاء مكة</div>
+</header>
+
+<nav id="menu">
+  <a href="index.html">الرئيسية</a>
+  <a href="services.html">خدماتنا</a>
+  <a href="products.html">منتجاتنا</a>
+  <a href="difference.html">الفرق بين البطحاء</a>
+  <a href="gallery.html">معرض الصور</a>
+  <a href="payments.html">طرق الدفع</a>
+  <a href="contact.html">تواصل معنا</a>
+</nav>
+
+<div class="container">
+
+<h1>الفرق بين بطحاء الرياض وبطححاء تيماء</h1>
+
+<!-- بطحاء الرياض -->
+<div class="card">
+  <img src="https://i.postimg.cc/nVw9mf6x/bat7aryad.jpg" alt="بطحاء الرياض">
+  <h2>بطحاء الرياض</h2>
+  <p>
+    بطحاء ناعمة ومتجانسة، تُستخدم في:
+    <br>• اللياسة (التلييس)
+    <br>• التشطيب
+    <br>• البلاط
+    <br>• الأعمال الداخلية
+  </p>
+</div>
+
+<!-- بطحاء تيماء -->
+<div class="card">
+  <img src="https://i.postimg.cc/NGP2XvWf/tymaaa.jpg" alt="بطحاء تيماء">
+  <h2>بطحاء تيماء</h2>
+  <p>
+    بطحاء متوسطة إلى خشنة، <strong>ولا تُستخدم للردم أو الدفان</strong>.
+    <br><br>
+    تُستخدم في:
+    <br>• تلييس الواجهات
+    <br>• التلييس الداخلي (بعد الغربلة الجيدة)
+    <br>• الأعمال التي تحتاج قوة تماسك أعلى
+  </p>
+</div>
+
+<!-- مقارنة -->
+<div class="card">
+  <h2>مقارنة سريعة</h2>
+  <ul class="compare">
+    <li><strong>النعومة:</strong> الرياض أنعم من تيماء</li>
+    <li><strong>القوة:</strong> تيماء أقوى في التماسك</li>
+    <li><strong>اللياسة:</strong> الرياض للتشطيب – تيماء للواجهات</li>
+    <li><strong>الردم والدفان:</strong> غير مستخدمة في تيماء</li>
+    <li><strong>السعر:</strong> يختلف حسب الموقع والكمية</li>
+  </ul>
+</div>
+
+</div>
+
+<script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
